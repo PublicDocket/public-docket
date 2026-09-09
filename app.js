@@ -38,10 +38,10 @@ function renderHome() {
       <p class="hero-eyebrow">A student courtroom-observation project</p>
       <h1>Public trials, written up in public.</h1>
       <p class="lede">
-        We sit in on open court proceedings, take careful notes, and publish
+        We sit in on open court proceedings here in Ann Arbor, take careful notes, and publish
         plain-language breakdowns of what we actually saw — so that anyone
         can understand how their local courts work, not just the people
-        who show up.
+        who show up. All court viewing is done at the 14A-1 District Court.
       </p>
       <div class="hero-actions">
         <a class="btn stamp-btn" href="#/docket">Read the docket</a>
@@ -71,7 +71,7 @@ function renderHome() {
         </div>
         <div class="info-card">
           <h4>Who it's for</h4>
-          <p>Anyone curious how the courthouse down the street actually works.</p>
+          <p>Anyone curious how the courthouse down the street actually works (Washtenaw).</p>
         </div>
       </div>
     </section>
@@ -285,10 +285,6 @@ function renderJoin() {
         <li>Draft your write-up within a day or two, while it's fresh, using the standard format.</li>
         <li>Send it for a second read before it's published.</li>
       </ol>
-      <div class="callout">
-        Replace the contact card above with a real email address, or link
-        to a Google Form, before you publish this site.
-      </div>
     </section>
   `;
 }
