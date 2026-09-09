@@ -267,11 +267,11 @@ function renderJoin() {
       <div class="info-grid">
         <div class="info-card">
           <h4>Meets</h4>
-          <p>Edit this — day &amp; time</p>
+          <p>3:30pm - 5pm Every Wednesday</p>
         </div>
         <div class="info-card">
           <h4>Where</h4>
-          <p>Edit this — room / location</p>
+          <p>4133 Washtenaw Avenue Ann Arbor, MI 48108</p>
         </div>
         <div class="info-card">
           <h4>Contact</h4>
