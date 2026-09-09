@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Public Docket</title>
+  <meta name="description" content="Student-written breakdowns of public courtroom trials." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site">
+    <div class="wrap site-header-inner">
+      <a class="wordmark" href="#/">
+        The Public Docket
+        <span class="mark-no">EST. 2026</span>
+      </a>
+      <nav class="site-nav">
+        <a href="#/" data-route="home">Home</a>
+        <a href="#/docket" data-route="docket">Docket</a>
+        <a href="#/standards" data-route="standards">Standards</a>
+        <a href="#/about" data-route="about">About</a>
+        <a href="#/join" data-route="join">Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="site">
+    <div class="wrap">
+      <p>
+        The Public Docket publishes plain-language summaries of open, public
+        court proceedings for educational purposes. Nothing on this site is
+        legal advice or a statement of guilt or liability. See our
+        <a href="#/standards">reporting standards</a> for how we handle
+        corrections and privacy.
+      </p>
+      <p>&copy; <span id="year"></span> The Public Docket. Edit this footer with your school/group name before publishing.</p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
