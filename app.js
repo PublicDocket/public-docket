@@ -275,13 +275,12 @@ function renderJoin() {
         </div>
         <div class="info-card">
           <h4>Contact</h4>
-          <p>Edit this — email or form link</p>
+          <p>finksravivj@gmail.com</p>
         </div>
       </div>
       <h3>What a first visit looks like</h3>
       <ol>
-        <li>Check the local courthouse's public docket for open hearings that week.</li>
-        <li>Go with a partner and an experienced member if it's your first time.</li>
+        <li>Check the washtenaw 14A District Court for open hearings that week.</li>
         <li>Take notes by hand — most courthouses don't allow laptops or recording in the gallery.</li>
         <li>Draft your write-up within a day or two, while it's fresh, using the standard format.</li>
         <li>Send it for a second read before it's published.</li>
